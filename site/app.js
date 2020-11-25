@@ -53,8 +53,8 @@ app.get('/info', function(req, res) {
     patientdata = {
       "personal": {
         "name": "Ralph DAlmeida",
-        "age": 38,
-        "gender": "male",
+        "age": 18,
+        "gender": "gelding",
         "street": "34 Main Street",
         "city": "Toronto",
         "zipcode": "M5H 1T1"
@@ -103,8 +103,8 @@ app.get('/measurements', function(req, res) {
 
   measurements = {
     smokerstatus: 'Former smoker',
-    dia: 88,
-    sys: 130,
+    dia: 28,
+    sys: 150,
     bmi: 19.74,
     bmirange: 'normal',
     weight: 54.42,
